@@ -14,4 +14,5 @@ RUN mkdir -p /root/.config/nvim/
 COPY init.vim /root/.config/nvim/init.vim
 RUN nvim +'PlugInstall --sync' +'PlugUpdate' +qa 
 
-CMD echo "hello world"
+CMD  while :; do echo 'running...'; sleep 1; done
+
