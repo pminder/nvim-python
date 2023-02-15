@@ -10,6 +10,6 @@ tqdm==4.29.1
 xlsxwriter==1.1.2
 pillow==5.4.1
 spyne==2.12.16
-Werkzeug==0.15.4
+Werkzeug==2.2.3
 lxml==4.3.3
 mysql-connector-python==8.0.16
